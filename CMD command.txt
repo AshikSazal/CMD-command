@@ -1,3 +1,7 @@
-How to rename multiple files in multiple folders with one command?
+1. How to rename multiple files in multiple folders with one command?
 Ans: .html convert to .php
 for /f "delims=*" %a in ('dir *.html /b /s') do ren "%a" *.php
+
+2. How to rename multiple file extension name?
+Ans: .mp3 convert to .mp4
+rename *.mp3 *.mp4
