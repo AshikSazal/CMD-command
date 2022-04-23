@@ -1,0 +1,3 @@
+How to rename multiple files in multiple folders with one command?
+Ans: .html convert to .php
+for /f "delims=*" %a in ('dir *.html /b /s') do ren "%a" *.php
